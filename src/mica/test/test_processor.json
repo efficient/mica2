@@ -1,0 +1,19 @@
+{
+  "alloc": {
+    /*"clean_files_on_init": true,
+    "verbose": true*/
+  },
+
+  "processor": {
+    "lcores": [0, 1, 2, 3],
+    "partition_count": 16,
+
+    "total_size": 1000000,
+    "total_item_count": 1000,
+
+    "concurrent_read": true,
+    "concurrent_write": true
+
+    /*"stage_gap": 2*/
+  }
+}

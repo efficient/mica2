@@ -1,0 +1,28 @@
+{
+  "alloc": {
+    /*"clean_files_on_init": true,
+    "verbose": true*/
+  },
+
+  "processor": {
+    "lcores": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+    "partition_count": 16,
+
+    /*"lcores": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+    "partition_count": 20,*/
+
+    /*"lcores": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+    "partition_count": 28,*/
+
+    "total_size": 922746880,
+    "total_item_count": 31457280,
+
+    "concurrent_read": false,
+    /*"concurrent_read": true,*/
+    "concurrent_write": false,
+    /*"concurrent_write": true,*/
+
+    "stage_gap": 2
+    /*"target_stage_gap_time": 300*/
+  }
+}

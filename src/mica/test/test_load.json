@@ -1,0 +1,20 @@
+{
+  "alloc": {
+    /*"clean_files_on_init": true,
+    "verbose": true*/
+  },
+
+  "pool": {
+    "size": 2000000000,
+    "concurrent_read": false,
+    "concurrent_write": false,
+    "numa_node": 0
+  },
+
+  "table": {
+    "item_count": 16777216,
+    "concurrent_read": false,
+    "concurrent_write": false,
+    "numa_node": 0
+  }
+}
