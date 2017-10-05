@@ -33,7 +33,7 @@ Compiling DPDK
 
          * cd dpdk-16.11
          * make config T=x86_64-native-linuxapp-gcc
-         # it is recommended to increase "CONFIG_RTE_MEMPOOL_CACHE_MAX_SIZE" to 4096 in build/.config
+         # Optimization: try to increase "CONFIG_RTE_MEMPOOL_CACHE_MAX_SIZE" to 4096 in build/.config (but it can also break mempool initialization)
          * make -j
 
 Compiling MICA
